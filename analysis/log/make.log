@@ -1,18 +1,18 @@
 --------------------------------------------------------------------------------
-Makelog started: 2023-10-20 17:56:01
-Working directory: /Users/shiqiyang/Documents/github_folders/template/analysis
+Makelog started: 2024-07-22 14:27:35
+Working directory: /Users/xtj/Documents/github/template/analysis
 --------------------------------------------------------------------------------
 Input links successfully created!
 External links successfully created!
 Source logs successfully written!
 Version logs successfully written!
-Executing command: `python  "/Users/shiqiyang/Documents/github_folders/template/analysis/code/analyze_data.py" `
-/usr/local/Caskroom/miniconda/base/envs/template/lib/python3.12/site-packages/linearmodels/panel/model.py:1214: MissingValueWarning: 
+Executing command: `python  "/Users/xtj/Documents/github/template/analysis/code/analyze_data.py" `
+/opt/homebrew/Caskroom/miniconda/base/envs/template/lib/python3.12/site-packages/linearmodels/panel/model.py:1219: MissingValueWarning: 
 Inputs contain missing values. Dropping rows with missing observations.
   super().__init__(dependent, exog, weights=weights, check_rank=check_rank)
 
 Output logs successfully written!
 --------------------------------------------------------------------------------
-Makelog ended: 2023-10-20 17:56:09
-Working directory: /Users/shiqiyang/Documents/github_folders/template/analysis
+Makelog ended: 2024-07-22 14:27:37
+Working directory: /Users/xtj/Documents/github/template/analysis
 --------------------------------------------------------------------------------
