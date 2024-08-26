@@ -1,27 +1,29 @@
 --------------------------------------------------------------------------------
-Makelog started: 2024-08-22 18:05:45
-Working directory: /Users/xtj/Documents/github/template/analysis
+Makelog started: 2024-08-25 19:22:59
+Working directory: /oak/stanford/groups/gentzkow/xtj/template/analysis
 --------------------------------------------------------------------------------
 Input links successfully created!
 External links successfully created!
 Source logs successfully written!
+WARNING! The following target files have been modified according to git status:
+/oak/stanford/groups/gentzkow/xtj/template/data/output/data_cleaned.csv
 Version logs successfully written!
-Executing command: `python  "/Users/xtj/Documents/github/template/analysis/code/analyze_data.py" `
-/opt/homebrew/Caskroom/miniconda/base/envs/template/lib/python3.12/site-packages/linearmodels/panel/model.py:1219: MissingValueWarning: 
+Executing command: `python  "/oak/stanford/groups/gentzkow/xtj/template/analysis/code/analyze_data.py" `
+/home/users/xtj/miniconda3/envs/template/lib/python3.12/site-packages/linearmodels/panel/model.py:1219: MissingValueWarning: 
 Inputs contain missing values. Dropping rows with missing observations.
   super().__init__(dependent, exog, weights=weights, check_rank=check_rank)
-/opt/homebrew/Caskroom/miniconda/base/envs/template/lib/python3.12/site-packages/linearmodels/panel/model.py:1219: MissingValueWarning: 
+/home/users/xtj/miniconda3/envs/template/lib/python3.12/site-packages/linearmodels/panel/model.py:1219: MissingValueWarning: 
 Inputs contain missing values. Dropping rows with missing observations.
   super().__init__(dependent, exog, weights=weights, check_rank=check_rank)
-/opt/homebrew/Caskroom/miniconda/base/envs/template/lib/python3.12/site-packages/linearmodels/panel/model.py:1219: MissingValueWarning: 
+/home/users/xtj/miniconda3/envs/template/lib/python3.12/site-packages/linearmodels/panel/model.py:1219: MissingValueWarning: 
 Inputs contain missing values. Dropping rows with missing observations.
   super().__init__(dependent, exog, weights=weights, check_rank=check_rank)
-/opt/homebrew/Caskroom/miniconda/base/envs/template/lib/python3.12/site-packages/linearmodels/panel/model.py:1219: MissingValueWarning: 
+/home/users/xtj/miniconda3/envs/template/lib/python3.12/site-packages/linearmodels/panel/model.py:1219: MissingValueWarning: 
 Inputs contain missing values. Dropping rows with missing observations.
   super().__init__(dependent, exog, weights=weights, check_rank=check_rank)
 
 Output logs successfully written!
 --------------------------------------------------------------------------------
-Makelog ended: 2024-08-22 18:05:49
-Working directory: /Users/xtj/Documents/github/template/analysis
+Makelog ended: 2024-08-25 19:23:40
+Working directory: /oak/stanford/groups/gentzkow/xtj/template/analysis
 --------------------------------------------------------------------------------

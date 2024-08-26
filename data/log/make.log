@@ -1,14 +1,14 @@
 --------------------------------------------------------------------------------
-Makelog started: 2024-08-22 18:05:42
-Working directory: /Users/xtj/Documents/github/template/data
+Makelog started: 2024-08-25 19:22:47
+Working directory: /oak/stanford/groups/gentzkow/xtj/template/data
 --------------------------------------------------------------------------------
 Input links successfully created!
 External links successfully created!
 Source logs successfully written!
 Version logs successfully written!
-Executing command: `python  "/Users/xtj/Documents/github/template/data/code/merge_data.py" `
-Executing command: `python  "/Users/xtj/Documents/github/template/data/code/clean_data.py" `
-/Users/xtj/Documents/github/template/data/code/clean_data.py:23: FutureWarning: ChainedAssignmentError: behaviour will change in pandas 3.0!
+Executing command: `python  "/oak/stanford/groups/gentzkow/xtj/template/data/code/merge_data.py" `
+Executing command: `python  "/oak/stanford/groups/gentzkow/xtj/template/data/code/clean_data.py" `
+/oak/stanford/groups/gentzkow/xtj/template/data/code/clean_data.py:23: FutureWarning: ChainedAssignmentError: behaviour will change in pandas 3.0!
 You are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.
 A typical example is when you are setting values in a column of a DataFrame, like:
 
@@ -19,7 +19,7 @@ Use `df.loc[row_indexer, "col"] = values` instead, to perform the assignment in 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
 
   df['chips_sold'][df['chips_sold'] == -999999] = np.nan
-/Users/xtj/Documents/github/template/data/code/clean_data.py:23: SettingWithCopyWarning: 
+/oak/stanford/groups/gentzkow/xtj/template/data/code/clean_data.py:23: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
@@ -27,6 +27,6 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 
 Output logs successfully written!
 --------------------------------------------------------------------------------
-Makelog ended: 2024-08-22 18:05:45
-Working directory: /Users/xtj/Documents/github/template/data
+Makelog ended: 2024-08-25 19:22:59
+Working directory: /oak/stanford/groups/gentzkow/xtj/template/data
 --------------------------------------------------------------------------------
